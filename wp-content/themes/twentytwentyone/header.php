@@ -18,11 +18,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<p class="notification-bar" style="width:100%;display: block;text-align: center;padding-left: 10px;    color: purple; ">Open During Covid 19 </p>
+<p class="notification-bar" style="width:100%;display: block;text-align: center;padding-left: 10px;    color: purple; "><i class="fa fa-exclamation-circle"> &nbsp;Open During Covid 19 </p>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
