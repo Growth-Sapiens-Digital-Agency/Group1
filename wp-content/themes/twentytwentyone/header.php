@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<p class="notification-bar">test</p>
+<p class="notification-bar" style="width:100%;display: block;text-align: center;padding-left: 10px;    color: purple; ">Open During Covid 19 </p>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
